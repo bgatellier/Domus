@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/domus.css" media="screen" />
+<link rel="stylesheet" href="css/controls.css" media="screen" />
+<title>Domus</title>
+</head>
+<body>
+	<div id="ipad-frame">
+		<div id="ipad">
+			<div id="ipad-status">
+				<span id="ipad-name">iPad</span>
+				<span id="ipad-time">13:37</span>
+				<span id="ipad-battery">91%</span>
+			</div>
+			<div class="panel panel-sidebar">
+				<div class="menu-main">
+					<h1>Scénarios</h1>
+					<ul>
+						<li class="left back"><a href="index.html">Domus</a></li>
+						<li><a href="scenario-add.html"><img alt="Ajouter un scénario" src="pic/add.png"/></a></li>
+					</ul>
+				</div>
+				<ul class="panel-footer">
+					<li><a class="selected" href="scenarios.html">Scénarios</a></li>
+					<li><a href="scenes.html">Scènes</a></li>
+				</ul>
+				<div class="panel-sidebar-content">
+					<ul>
+						<li><a href="#">Scénario 1</a></li>
+						<li><a class="selected" href="scenario2.html">Scénario 2</a></li>
+						<li><a href="#">Scénario 3</a></li>
+						<li><a href="#">Scénario 4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="panel panel-main">
+				<div class="menu-main">
+					<ul>
+						<li class="left"><a href="scenario2-edit.html">Modifier</a></li>
+						<li><a href="#"><img alt="Lancer le scénario" src="pic/play.png"/></a></li>
+						<li><a href="#"><img alt="Supprimer le scénario" src="pic/trash.png"/></a></li>
+					</ul>
+				</div>
+				<div class="panel-main-content">
+					<div class="content-group">
+						<h2 class="menu-title">Scénario&nbsp;:</h2>
+						<ul class="menu">
+							<li class="editable">
+								<span class="label">Nom</span>
+								<span class="value">Scénario 2</span>
+							</li>
+						</ul>
+					</div>
+					<div class="content-group">
+						<h2 class="menu-title">Éléments&nbsp;:</h2>
+						<ul class="menu">
+							<li>
+								<h3 class="submenu-title">Cuisine</h3>
+								<ul class="submenu">
+									<li>
+										<a class="element" href="scenario2-popup-light.html">
+											<img src="pic/light.png"/>
+											<span class="element-description">Lumière 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="scenario2-popup-socket.html">
+											<img alt="" src="pic/socket.png"/>
+											<span class="element-description">Prise 3</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3 class="submenu-title">Séjour</h3>
+								<ul class="submenu">
+									<li>
+										<a class="element" href="scenario2.html">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Volet 1</span>
+										</a>
+										<div class="popup" id="popup-socket">
+											<h4 class="popup-title">Volet 1</h4>
+											<div class="popup-bckg">
+												<div class="popup-content">
+													<div class="content-group">
+														<h5 class="menu-title">Régler l'ouverture&nbsp;:</h5>
+														<ul class="menu">
+															<li>
+																<div class="slider slider-light">
+																	<img alt="Volet fermé" src="pic/light-mini-grey.png"/>
+																	<div class="slider-bar">
+																		<div class="slider-empty">
+																			<div class="slider-full"></div>
+																			<a class="slider-cursor" href="#"></a>
+																		</div>
+																	</div>
+																	<img alt="Volet ouvert" src="pic/light-mini.png"/>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="content-group">
+														<h5 class="menu-title">Régler la portée&nbsp;:</h5>
+														<ul class="menu">
+															<li><a class="checked" href="#">Ce volet uniquement</a></li>
+															<li><a href="#">Les volets de la pièce</a></li>
+															<li><a href="#">Les volets de la maison</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3 class="subtitle">Chambre</h3>
+								<ul class="submenu">
+									<li>
+										<a class="element" href="scenario2-popup-curtain.html">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Rideaux 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="scenario2-popup-blind.html">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Stores 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 2</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light-grey.png"/>
+											<span class="element-description">Lumière 3</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light-grey.png"/>
+											<span class="element-description">Lumière 4</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3 class="subtitle">Salle de bain</h3>
+								<ul class="submenu">
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 2</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3 class="subtitle">Bureau</h3>
+								<ul class="submenu">
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 1</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 2</span>
+										</a>
+									</li>
+									<li>
+										<a class="element" href="#">
+											<img alt="" src="pic/light.png"/>
+											<span class="element-description">Lumière 3</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="content-group">
+						<h2 class="menu-title">Espacer les éléments dans le temps&nbsp;:</h2>
+						<ul class="menu">
+							<li>
+								<a class="option" href="scenario2-order.html">
+									<span class="value value-selected">désactivée</span>
+									Temporisation
+								</a>	
+							</li>
+						</ul>
+					</div>
+					<div class="content-group">
+						<h2 class="menu-title">Déclencheurs&nbsp;:</h2>
+						<ul class="menu">
+							<li>
+								<a class="option" href="scenario2-plan.html">
+									<span class="value value-selected">désactivée</span>
+									Planification
+								</a>
+							</li>
+							<li>
+								<a class="option" href="scenario2-jetons.html">
+									<span class="value value-selected">désactivé</span>
+									Jetons
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+.panel-main-content{
+	height: 615px;
+}
+
+.panel-main-content#monitoring-full{
+	height: 705px;
+	padding: 0;
+}
+
+.label.indicator{
+	background-position: 11px center;
+	background-repeat: no-repeat;
+	padding-left: 54px;
+}
+
+.indicator-electricity{
+	background-image: url(../pic/indicators/electricity.png);
+}
+
+.indicator-water-cold{
+	background-image: url(../pic/indicators/water-cold.png);
+}
+
+.indicator-water-hot{
+	background-image: url(../pic/indicators/water-hot.png);
+}
+
+.indicator-co2{
+	background-image: url(../pic/indicators/co2.png);
+}
+
+.indicator-dpe{
+	background-image: url(../pic/indicators/dpe-mini.png);
+}
+
+.indicator-dpe-climat{
+	background-image: url(../pic/indicators/dpe-climat-mini.png);
+}
+
+.indicator-humidity{
+	background-image: url(../pic/indicators/humidity.png);
+}
+
+.indicator-temperature{
+	background-image: url(../pic/indicators/temperature.png);
+}
+
+.indicator-dpe +ul li, .indicator-dpe-climat +ul li{
+	border: solid 1px #000;
+	float: right !important;
+	line-height: 32px;
+	margin: 4px 0 0 2px !important;
+	padding: 0 3px;
+	text-transform: uppercase;
+}
+
+/* DPE �nergie */
+.indicator-dpe +ul li.indicator-dpe-a{
+	background-color: #339a33;
+}
+
+.indicator-dpe +ul li.indicator-dpe-b{
+	background-color: #33cc33;
+}
+
+.indicator-dpe +ul li.indicator-dpe-c{
+	background-color: #ccff33;
+}
+
+.indicator-dpe +ul li.indicator-dpe-d{
+	background-color: #ffff00;
+}
+
+.indicator-dpe +ul li.indicator-dpe-e{
+	background-color: #ffcc00;
+}
+
+.indicator-dpe +ul li.indicator-dpe-f{
+	background-color: #ff9a33;
+}
+
+.indicator-dpe +ul li.indicator-dpe-g{
+	background-color: #ff0000;
+}
+
+/* DPE climat */
+.indicator-dpe-climat +ul li.indicator-dpe-a{
+	background-color: #f6edfd;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-b{
+	background-color: #e1c2f8;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-c{
+	background-color: #d4a9f5;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-d{
+	background-color: #cb95f3;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-e{
+	background-color: #ba72ef;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-f{
+	background-color: #a74deb;
+}
+
+.indicator-dpe-climat +ul li.indicator-dpe-g{
+	background-color: #8a19df;
+}
+
+/**
+	MONITORING
+*/
+.monitoring{
+	text-align: center;
+}
+
+.camera{
+	background-color: #000 !important;
+	border-radius: 0 !important;
+}
+
+.camera-mini{
+	display: inline-block;
+	height: 300px;
+	margin: 11px 44px;
+	position: relative;
+	width: 300px;
+}
+
+.camera-mini:after{
+	content: attr(title);
+	font-weight: normal;
+	position: absolute; bottom: -32px; left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.camera-full{
+	height: 100%;
+	width: 100%;
+}
